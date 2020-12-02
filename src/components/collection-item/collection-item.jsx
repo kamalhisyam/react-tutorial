@@ -13,7 +13,7 @@ const CollectionItem = ({ item, dispatch }) => {
         </div>
         <div className='footer'>
             <span className='name'>{name}</span>
-            <span className='price'>{price}</span>
+            <span className='price'>${price}</span>
         </div>
         <CustomButton inverted onClick={() => {dispatch(addItem(item))}}>ADD TO CART</CustomButton>
     </div>
