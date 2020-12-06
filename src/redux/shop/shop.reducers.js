@@ -1,4 +1,3 @@
-import React from 'react';
 import SHOP_DATA from './shop.data';
 
 const INITIAL_STATE = {
